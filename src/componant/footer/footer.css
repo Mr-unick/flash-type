@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    margin: 0px;
+    background-color: #262a2b;
+    justify-content: center;
+    color: beige;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: beige;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wp {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-link img {
+    display: flex;
+    color: black;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}

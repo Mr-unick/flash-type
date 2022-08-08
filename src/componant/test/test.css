@@ -1,0 +1,11 @@
+.test-container {
+    color: black;
+    background-color: azure;
+    display: flex;
+    margin: 64px 0;
+    width: 80%;
+    min-height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

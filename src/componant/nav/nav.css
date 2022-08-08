@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+.nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #262a2b;
+}
+
+.left-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.right-nav img {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.left-nav img {
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.text-logo {
+    color: white;
+    font-family: Bangers, italic;
+    font-size: 45px;
+}
+
+.right-nav img:hover {
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .right-nav img {
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+    }
+    .text-logo {
+        font-size: 30px;
+    }
+    .left-nav img {
+        height: 45px;
+        width: 35px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .right-nav {
+        margin-right: 10px;
+    }
+}

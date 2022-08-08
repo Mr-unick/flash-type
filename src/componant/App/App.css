@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #313434;
+    overflow-x: hidden;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
